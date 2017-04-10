@@ -1,0 +1,11 @@
+form{ 
+    display: none; 
+}
+
+header{ 
+    background-color: #434b58; 
+}
+
+header img { 
+    max-width: 270px;
+}
