@@ -9,3 +9,7 @@ header{
 header img { 
     max-width: 270px;
 }
+
+body { 
+    margin: 0px;
+}
