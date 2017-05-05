@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
 
 form{ 
     display: none; 
@@ -13,13 +15,24 @@ header img {
 }
 
 body { 
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    color: #3E4A59;
+}
+
+button { 
+    color: #FFF;
+}
+#titulo h1 { font-size:67px; }
+#titulo h2 {
+    font-size: 46px;
+    margin-top: -1em;
+    font-weight: 300;
 }
 
 section.fondo h2{ 
     font-family: 'Asap', sans-serif;
     text-align: center;
-    color: #3E4A59;
     font-size: 70px;
     text-transform: uppercase;
 }
