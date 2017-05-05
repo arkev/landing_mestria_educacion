@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:700');
+
 form{ 
     display: none; 
 }
@@ -12,4 +14,12 @@ header img {
 
 body { 
     margin: 0px;
+}
+
+section.fondo h2{ 
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    color: #3E4A59;
+    font-size: 70px;
+    text-transform: uppercase;
 }
