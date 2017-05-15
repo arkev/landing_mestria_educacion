@@ -1,13 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
 
+#titulo{
+    background:url(../images/Imagen–principal.jpg);
+    background-size: cover; 
+}
 
+#titulo button {
+ background-color: #E2793F;
+ border-radius: 34px;
+ border: 0;
+ font-size: 16px;
+ margin-bottom: 2.5em;
+ padding: .8em;
+ margin: 2em;
+}
+#cuadro{
+background:rgba(255, 255, 255, .3);
+height: 35vw;
+padding: 0vw;
+}
+
+#cuadro p{
+font-weight: 300;
+font-size: 20px;
+margin: -20px;
+}
+
+ 
 form{ 
     display: none; 
 }
 
 header{ 
-    background-color: #434b58; 
+    background-color: #2D3D4F; 
 }
 
 header img { 
@@ -30,9 +56,76 @@ button {
     font-weight: 300;
 }
 
+#beneficios img {
+    width: 30%;
+}
+#beneficios p {
+    font-weight: 300;
+}
 section.fondo h2{ 
     font-family: 'Asap', sans-serif;
     text-align: center;
     font-size: 70px;
     text-transform: uppercase;
+}
+#perfiles{
+    background:url(../images/imagen%20de%20morros.png);
+    background-size:cover;
+    height: 20em;
+    display: flex;
+}    
+
+#perfiles button{
+    background-color:rgba(100,100,100,0.5); 
+    font-size: 30px;
+    border: 0em;
+    height: 45%;
+    padding: 4.9vw;
+    margin: 1.5em;
+}
+#cuanto_pagar button{
+    background-color: #E2793F;
+    border-radius: 34px;
+    border: 0;
+    font-size: 16px;
+    margin-bottom: 2.5em;
+    padding: .8em;
+    margin: 2em;
+}
+footer{
+    background-color:#2D3D4F;
+    }
+footer img{
+    width: 75%;
+}
+#redes p {
+    color: #cbcfd4;
+    font-weight: 100;
+}
+
+@medi only screen and(min-width:768px)
+    
+    #cuadrobox{
+        height:28vw;
+    }
+    
+    #beneficios{
+     margin: 75px;
+}
+
+    #beneficios h2{ 
+        font-size:40px;
+        margin-left:0em;}
+       
+
+footer img{
+    width: 49%;
+}
+
+@medi only screen and(max-width:1024px)
+    
+    #cuadro {
+     background:rgba (0, 0, 0, 0,); 
+     height: 53vw; 
+     padding: 0vw; 
 }
