@@ -5,6 +5,10 @@
 	background-size: cover;
 }
 
+.row{
+	margin: 0;
+}
+
 #titulo button {
 	background-color: #E2793F;
 	border-radius: 34px;
@@ -82,7 +86,7 @@ section.fondo h2 {
 }
 
 #perfiles button {
-	background-color: rgba(100, 100, 100, 0.5);
+	background-color: rgba(00, 45, 70, 0.8);
 	font-size: 30px;
 	border: 0em;
 	height: 45%;
@@ -106,11 +110,19 @@ footer {
 
 footer img {
 	width: 75%;
+    max-width: 50%;
+    
 }
 
-#redes p {
-	color: #cbcfd4;
-	font-weight: 100;
+footer a{
+    display: inline-block;
+    max-width: 20%;
+}
+
+footer p {
+	color: #FFF;
+	font-weight: 300;
+    
 }
 
 @media only screen and(min-width:768px) {
@@ -149,16 +161,14 @@ footer img {
         margin-right: 220px;
 
     }
-  
     
-    
-}
+
 
 
 @media only screen and (min-width:1024px){
 
     #titulo h1{
-        font-size:70px;
+        font-size:76px;
         margin-right: 4em;
     }
 
@@ -173,3 +183,9 @@ footer img {
     margin-right: 217px}
     
     }
+    footer img {
+    width: 50%;
+        margin-top: 30px;
+        
+        
+}
