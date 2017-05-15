@@ -130,15 +130,9 @@ footer img {
 	width: 49%;
 }
 
-<<<<<<< Updated upstream
+
 @media only screen and (min-width: 64em) {
 	#cuadro {
 		background: rgba(255, 255, 255, 0);
 	}
-=======
-@medi only screen and(max-width:1024px)
-    
-    
-     
->>>>>>> Stashed changes
 }
