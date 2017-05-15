@@ -12,7 +12,7 @@
 	font-size: 16px;
 	margin-bottom: 2.5em;
 	padding: .8em;
-	margin: 2em;
+	margin: em;
 }
 
 #cuadro {
@@ -113,26 +113,62 @@ footer img {
 	font-weight: 100;
 }
 
-@medi only screen and(min-width:768px) #cuadrobox {
-	height: 28vw;
-}
+@media only screen and(min-width:768px) {
+    #cuadro box {
+	height: 28vw;}
 
-#beneficios {
+    #beneficios {
 	margin: 75px;
 }
 
-#beneficios h2 {
+    #beneficios h2 {
 	font-size: 40px;
 	margin-left: 0em;
 }
 
-footer img {
-	width: 49%;
-}
+    footer img {
+	width: 49%;}
+    
+    #button {
+        margin-top: 90px;
+        
+    }
+    
+    
+    
 
+}
 
 @media only screen and (min-width: 64em) {
 	#cuadro {
 		background: rgba(255, 255, 255, 0);
+        
 	}
+    
+    #button {
+        margin-top: 90px;
+        
+    }
+    
+    
 }
+
+
+@media only screen and (min-width:1024px){
+
+    #titulo h1{
+        font-size:70px;
+        margin-right: 4em;
+    }
+
+    #titulo h2{
+        font-size: 44px;
+        margin-top: -1.3em;
+        margin-right: 5em;
+    } 
+    
+    #cuadro p{ 
+    font-size: 25px;
+    margin-right: 217px}
+    
+    }
